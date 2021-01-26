@@ -1,0 +1,31 @@
+li{
+display: inline;
+justify-content: flex-start;
+align-items:stretch;
+margin: 0 10px;
+text-decoration:none;
+background-color: rgb(255, 255, 255);
+border-radius: 5%;
+font-size: 25px;
+
+}
+
+
+.navbar_links_wrapper{
+width: 95%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.navbar_name{
+display: inline-block;
+width: 5em;
+color: rgba(255, 255, 255, 0.623);
+margin-left: 1em !important;
+margin-top: 0.5em !important;
+}
+
+.navbar{
+    margin-bottom: 2em;
+}

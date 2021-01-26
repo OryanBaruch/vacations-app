@@ -1,0 +1,40 @@
+*{
+    margin: 0 0;
+    padding: 0 0;
+}
+
+.login_form, .register_form{
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    padding-bottom: 10px;
+}
+
+.input_label{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.inputs_form{
+    margin-bottom: 15px;
+    margin-top: 15px;
+        display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    padding-bottom: 10px;
+}
+
+.register_form{
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar{
+    justify-content: space-evenly;
+}
