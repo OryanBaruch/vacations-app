@@ -1,0 +1,39 @@
+-- create database vactaion;
+use vactaion;
+
+-- create table users(
+-- id int auto_increment not null,
+-- first_name varchar(255) not null, 
+-- last_name varchar(255) not null,
+-- username varchar(255) not null,
+-- password varchar(255) not null,
+-- role boolean default false,
+-- primary key (id)
+-- );
+
+-- insert into users (first_name, last_name, username, password, role)
+-- values("admin", "admin", "admin", "111", true)
+
+//when u select * from users, you need to see that i hashed the password of the admin.
+
+
+-- create table vacations (
+-- id int auto_increment not null,
+-- description varchar(255) not null,
+-- destination varchar(255) not null,
+-- image varchar(255),
+-- starting_date date not null,
+-- ending_date date not null, 
+-- price int not null, 
+-- followers int default 0,
+-- primary key (id)
+-- );
+
+-- create table followed_vacations (
+-- id int auto_increment not null,
+-- follower_id int ,
+-- vacation_id int ,
+-- foreign key (follower_id) references users(id),
+-- foreign key (vacation_id) references vacations(id),
+-- primary key (id)
+-- );

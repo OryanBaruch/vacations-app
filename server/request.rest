@@ -1,0 +1,45 @@
+# GET http://localhost:5000/users
+
+# GET http://localhost:5000/number-of-followers
+
+
+# GET http://localhost:5000/vacations 
+ 
+
+POST http://localhost:5000/vacations
+Content-Type: application/json
+
+{
+    "description":"FlyDubai",
+    "destination":"UAE",
+    "image":"https://www.danfoss.com/media/7007/burj_khalifa_case_story_1120x747.jpg",
+    "starting_date":" 2020-03-16",
+    "ending_date":"2020-04-21",
+    "price":5000
+}
+ 
+#  POST http://localhost:5000/login
+#  Content-Type: application/json
+
+#  {
+#     "username": "oryanb321",
+#     "password": "123"
+#  }
+
+
+ POST http://localhost:5000/register
+  Content-Type: application/json
+
+ {
+    "first_name":"oryanus",
+    "last_name":"oryanus",
+    "username": "admin",
+    "password": "111"
+ }
+
+# -- insert into users (first_name, last_name, username, password, role)
+# -- values("admin", "admin", "admin", "111", true)
+
+ 
+//users:oryanb321 , yam1998 , michelnotjordan, avrhamLinkolen, joker
+//admin: admin =  admin
